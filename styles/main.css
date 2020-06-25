@@ -1,0 +1,230 @@
+/* Propiedades Generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  
+  /*Subtitulos*/
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* lis */
+  li {
+    display: inline-block;
+  }
+  
+  /* tittle*/
+  
+  .title {
+    position: relative;
+    margin: 0px;
+    color: white;
+  }
+  
+  h1 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    font-size: 64px;
+    text-align: center;
+    color: inherit;
+    font-weight: bold;
+  }
+  
+  .comment {
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+    color: inherit;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(66, 105, 216, 0.38);
+    /*overflow: scroll;*/
+  }
+  
+  .comment:hover{
+    color:red;
+    background-color: rgba(151, 202, 56, 0.411);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25) ;
+    transition: background-color 1s ease , color 1s ease , box-shadow 1s ease;
+    animation: scale 1s;
+    transform: rotateX(3deg) scale(1.03) translateX(3px) translateY(3px);
+  }
+  
+  @keyframes scale{
+    0% {
+      transform: rotateX(0deg) scale(1) translateX(0px) translateY(0px);
+    }
+    100% {
+      transform: rotateX(3deg) scale(1.03) translateX(3px) translateY(3px);
+    }
+  }
+  
+  .boy {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+  }
+  
+  /*Secciones about*/
+  .about {
+    background-color: #7299fe;
+    color: white;
+    font-size: 14px;
+    padding: 30px;
+    margin: 0px;
+  }
+  .about h2 {
+    color: #1d06a7;
+    padding-top: 20px;
+  }
+  .about p {
+    padding: 20px;
+    text-align: justify;
+  }
+  .about a {
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    background-color: #d16fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /*Secciones Skills*/
+  .skills {
+    background-color: #9122ff;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+  }
+  
+  .skills h2 {
+    color: #26cc4b;
+    padding-top: 20px;
+  }
+  
+  .skills ul {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .skills li {
+    width: 40%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .skills progress {
+    width: 100%;
+    height: 30px;
+  }
+  
+  /*Secciones Portafolio*/
+  .portafolio {
+    background-color: #ffd233;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .portafolio h2 {
+    color: #00ad84;
+    padding-top: 20px;
+  }
+  
+  .portafolio ul {
+    text-align: center;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  
+  .portafolio li {
+    padding: 10px;
+  }
+  
+  /*Secciones Customers*/
+  .customers {
+    background-color: #3f4e62;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .customers h2 {
+    color: #adff28;
+    padding-top: 20px;
+  }
+  
+  .customers ul {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .customers li {
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .customers figure img {
+    width: 180px;
+    height: 60px;
+  }
+  
+  /*Secciones Contactos*/
+  .contact {
+    background-color: #1687a0;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .contact h2 {
+    color: #ff1b1b;
+    padding-top: 20px;
+  }
+  
+  div form {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  input{
+    display: inline-block;
+    width: 40%;
+    height: 50px;
+    margin: 20px;
+  }
+  
+  textarea {
+    width: 88%;
+    margin: 10px;
+  }
+  
+  .send {
+    text-align: center;
+  }
+  
+  button{
+    margin: 20px;
+    width: 10%;
+    height: 30px;
+    font-size: 100%;
+    overflow: hidden;
+  }
